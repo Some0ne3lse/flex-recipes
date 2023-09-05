@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  background-color: rgb(190, 190, 190);
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.intro-box{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.introduction {
+  text-align: center;
+  margin: 15px;
+  width: 550px;
+  display: flex;
+  justify-content: center;
+  /* flex-wrap for em text */
+  flex-wrap: wrap;
+}
+.butnwrap {
+  display: flex;
+  margin-top: 15px;
+}
+.mbutton {
+  margin: 15px 5px;
+  background-color: azure;
+  padding: 5px;
+  font-size: large;
+  color: black;
+  border-radius: 12px;
+}
