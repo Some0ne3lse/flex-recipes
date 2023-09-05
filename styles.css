@@ -73,3 +73,8 @@
   justify-content: center;
   display: flex;
 }
+.instructions {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
