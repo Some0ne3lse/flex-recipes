@@ -22,10 +22,6 @@
   text-align: center;
   margin: 15px;
   width: 550px;
-  display: flex;
-  justify-content: center;
-  /* flex-wrap for em text */
-  flex-wrap: wrap;
 }
 .butnwrap {
   display: flex;
@@ -38,4 +34,13 @@
   font-size: large;
   color: black;
   border-radius: 12px;
+}
+.food {
+  display: flex;
+  justify-content: center;
+}
+.longimg {
+  display: flex;
+  max-width: 100%;
+  height: auto;
 }
