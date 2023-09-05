@@ -4,7 +4,6 @@
   font-family: monospace;
   margin: 0;
   padding: 0;
-  
 }
 
 .header {
@@ -43,4 +42,34 @@
   display: flex;
   max-width: 100%;
   height: auto;
+}
+.mainbox {
+  display: flex;
+  margin: 15px 400px;
+  justify-content: space-between;
+}
+.subheader {
+  text-align: start;
+}
+.otherrec {
+  display: flex;
+}
+.link {
+  margin: 5px;
+  font-size: large;
+}
+.otherintro {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 150px;
+}
+.lists {
+  padding-left: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 150px;
+}
+.homebutton {
+  justify-content: center;
+  display: flex;
 }
