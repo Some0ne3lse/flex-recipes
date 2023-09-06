@@ -47,6 +47,8 @@
   display: flex;
   width: 1000px;
   justify-content: space-between;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 .subheader {
   text-align: start;
