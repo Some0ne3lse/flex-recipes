@@ -45,7 +45,7 @@
 }
 .mainbox {
   display: flex;
-  margin: 15px 400px;
+  width: 1000px;
   justify-content: space-between;
 }
 .subheader {
@@ -77,4 +77,8 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+.all {
+  display: flex;
+  justify-content: center;
 }
